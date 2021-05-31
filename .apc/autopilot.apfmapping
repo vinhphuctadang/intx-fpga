@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="adder.h" path="D:\projects\intx-fpga\solution1\adder.h"/>
+    <originFiles name="adder.cpp" path="D:\projects\intx-fpga\solution1\adder.cpp"/>
+    <originFiles name="intx.hpp" path="D:\projects\intx-fpga\solution1\intx.hpp"/>
+    <originFiles name="int128.hpp" path="D:\projects\intx-fpga\solution1\int128.hpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test.cpp" path="D:\projects\intx-fpga\solution1\test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

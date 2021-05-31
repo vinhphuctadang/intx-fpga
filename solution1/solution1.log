@@ -1,0 +1,309 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.926 seconds; current allocated memory: 96.947 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.538 seconds; current allocated memory: 96.987 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.032 seconds; current allocated memory: 876.510 MB.
+INFO: [HLS 200-10] Analyzing design file 'intx-fpga/solution1/adder.cpp' ... 
+ERROR: [HLS 207-812] 'intx.hpp' file not found: intx-fpga/solution1/adder.cpp:1:10
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.33 seconds; current allocated memory: 97.340 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 2.471 seconds; peak allocated memory: 876.510 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.031 seconds; current allocated memory: 876.509 MB.
+INFO: [HLS 200-10] Analyzing design file 'intx-fpga/solution1/adder.cpp' ... 
+ERROR: [HLS 214-125] no member named 'conjunction_v' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:42
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_REQUIRE': D:\projects\intx-fpga\solution1\intx.hpp:461
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_REQUIRE': D:\projects\intx-fpga\solution1\intx.hpp:536
+ERROR: [HLS 214-124] use of undeclared identifier 'reciprocal_2by1': D:\projects\intx-fpga\solution1\intx.hpp:538
+ERROR: [HLS 214-125] no member named 'tie' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:546
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_REQUIRE': D:\projects\intx-fpga\solution1\intx.hpp:560
+ERROR: [HLS 214-124] use of undeclared identifier 'uint128': D:\projects\intx-fpga\solution1\intx.hpp:564
+ERROR: [HLS 214-125] no member named 'tie' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:570
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_REQUIRE': D:\projects\intx-fpga\solution1\intx.hpp:580
+ERROR: [HLS 214-125] no member named 'tie' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:584
+ERROR: [HLS 214-124] use of undeclared identifier 'add_with_carry': D:\projects\intx-fpga\solution1\intx.hpp:584
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_REQUIRE': D:\projects\intx-fpga\solution1\intx.hpp:593
+ERROR: [HLS 214-124] use of undeclared identifier 'sub_with_carry': D:\projects\intx-fpga\solution1\intx.hpp:598
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_REQUIRE': D:\projects\intx-fpga\solution1\intx.hpp:610
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_REQUIRE': D:\projects\intx-fpga\solution1\intx.hpp:611
+ERROR: [HLS 214-124] use of undeclared identifier 'uint128': D:\projects\intx-fpga\solution1\intx.hpp:613
+ERROR: [HLS 214-124] use of undeclared identifier 'uint128': D:\projects\intx-fpga\solution1\intx.hpp:622
+ERROR: [HLS 214-125] no member named 'tie' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:631
+ERROR: [HLS 214-125] no member named 'tie' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:635
+ERROR: [HLS 214-125] no member named 'tie' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:636
+ERROR: [HLS 214-124] use of undeclared identifier 'INTX_UNLIKELY': D:\projects\intx-fpga\solution1\intx.hpp:638
+ERROR: [HLS 214-124] use of undeclared identifier 'add_with_carry': D:\projects\intx-fpga\solution1\intx.hpp:895
+ERROR: [HLS 214-124] use of undeclared identifier 'from_string': D:\projects\intx-fpga\solution1\intx.hpp:909
+ERROR: [HLS 214-124] use of undeclared identifier 'from_string': D:\projects\intx-fpga\solution1\intx.hpp:914
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.664 seconds; current allocated memory: 98.687 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 1 seconds. Total elapsed time: 4.844 seconds; peak allocated memory: 876.509 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.029 seconds; current allocated memory: 876.481 MB.
+INFO: [HLS 200-10] Analyzing design file 'intx-fpga/solution1/adder.cpp' ... 
+ERROR: [HLS 214-125] no member named 'conjunction' in namespace 'std': D:\projects\intx-fpga\solution1\intx.hpp:43
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.193 seconds; current allocated memory: 98.519 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 1 seconds. Total elapsed time: 4.332 seconds; peak allocated memory: 876.481 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.032 seconds; current allocated memory: 876.497 MB.
+INFO: [HLS 200-10] Analyzing design file 'intx-fpga/solution1/adder.cpp' ... 
+ERROR: [HLS 207-3555] template argument for non-type template parameter must be an expression: intx-fpga/solution1/intx.hpp:64:66
+INFO: [HLS 207-4526] template parameter is declared here: D:/Xillin/Vitis_HLS/2020.2/tps/mingw/6.2.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\6.2.0\include\c++\type_traits:2511:17
+WARNING: [HLS 207-4022] static_assert with no message is a C++17 extension: intx-fpga/solution1/intx.hpp:67:54
+ERROR: [HLS 207-3320] use of overloaded operator '%' is ambiguous (with operand types 'intx::uint512' (aka 'uint<512>') and 'const intx::uint256' (aka 'const uint<256>')): intx-fpga/solution1/intx.hpp:900:35
+INFO: [HLS 207-4367] candidate function [with N = 512, T = intx::uint<256>, $2 = void]: intx-fpga/solution1/intx.hpp:805:26
+INFO: [HLS 207-4367] candidate function [with N = 256, T = intx::uint<512>, $2 = void]: intx-fpga/solution1/intx.hpp:812:26
+ERROR: [HLS 207-3320] use of overloaded operator '%' is ambiguous (with operand types 'uint<2 * 256U>' and 'const intx::uint256' (aka 'const uint<256>')): intx-fpga/solution1/intx.hpp:905:44
+INFO: [HLS 207-4367] candidate function [with N = 512, T = intx::uint<256>, $2 = void]: intx-fpga/solution1/intx.hpp:805:26
+INFO: [HLS 207-4367] candidate function [with N = 256, T = intx::uint<512>, $2 = void]: intx-fpga/solution1/intx.hpp:812:26
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.27 seconds; current allocated memory: 98.325 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.526 seconds; peak allocated memory: 876.497 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.027 seconds; current allocated memory: 876.497 MB.
+INFO: [HLS 200-10] Analyzing design file 'intx-fpga/solution1/adder.cpp' ... 
+WARNING: [HLS 207-4022] static_assert with no message is a C++17 extension: intx-fpga/solution1/intx.hpp:68:54
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.895 seconds; current allocated memory: 98.271 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.909 seconds; current allocated memory: 98.724 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 98.724 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.128 seconds; current allocated memory: 99.622 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 99.051 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.091 seconds; current allocated memory: 119.050 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 110.637 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'add' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'add' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.095 seconds; current allocated memory: 110.897 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 111.018 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'add' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'add/a' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'add/b' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'add' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'add'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 111.145 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.56 seconds; current allocated memory: 117.489 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for add.
+INFO: [VLOG 209-307] Generating Verilog RTL for add.
+INFO: [HLS 200-789] **** Estimated Fmax: 875.66 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 10.084 seconds; current allocated memory: 117.649 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 12.285 seconds; peak allocated memory: 876.497 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.617 seconds; current allocated memory: 96.967 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.613 seconds; current allocated memory: 96.967 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.607 seconds; current allocated memory: 96.967 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.005 seconds; current allocated memory: 96.934 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.032 seconds; current allocated memory: 876.497 MB.
+INFO: [HLS 200-10] Analyzing design file 'intx-fpga/solution1/adder.cpp' ... 
+WARNING: [HLS 207-4022] static_assert with no message is a C++17 extension: intx-fpga/solution1/intx.hpp:68:54
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.963 seconds; current allocated memory: 98.271 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-178] Inlining function 'intx::uint<256u>::uint()' into 'intx::result_with_carry<intx::uint<256u> > intx::add_with_carry<256u>(intx::uint<256u> const&, intx::uint<256u> const&, bool)' (intx-fpga/solution1/int128.hpp:170:0)
+INFO: [HLS 214-178] Inlining function 'intx::uint<256u>::operator[](unsigned long) const' into 'intx::result_with_carry<intx::uint<256u> > intx::add_with_carry<256u>(intx::uint<256u> const&, intx::uint<256u> const&, bool)' (intx-fpga/solution1/int128.hpp:170:0)
+INFO: [HLS 214-178] Inlining function 'intx::uint<256u>::operator[](unsigned long)' into 'intx::result_with_carry<intx::uint<256u> > intx::add_with_carry<256u>(intx::uint<256u> const&, intx::uint<256u> const&, bool)' (intx-fpga/solution1/int128.hpp:170:0)
+INFO: [HLS 214-178] Inlining function 'intx::result_with_carry<intx::uint<256u> > intx::add_with_carry<256u>(intx::uint<256u> const&, intx::uint<256u> const&, bool)' into 'intx::uint<256u> intx::operator+<256u>(intx::uint<256u> const&, intx::uint<256u> const&)' (intx-fpga/solution1/intx.hpp:342:0)
+INFO: [HLS 214-178] Inlining function 'intx::uint<256u> intx::operator+<256u>(intx::uint<256u> const&, intx::uint<256u> const&)' into 'add(intx::uint<256u>, intx::uint<256u>)' (intx-fpga/solution1/adder.cpp:4:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i256.s_struct.intx::uints' into 'add(intx::uint<256u>, intx::uint<256u>)' (intx-fpga/solution1/adder.cpp:5:2)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.666 seconds; current allocated memory: 99.708 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.019 seconds; current allocated memory: 99.709 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.048 seconds; current allocated memory: 100.923 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.057 seconds; current allocated memory: 100.203 MB.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2' (intx-fpga/solution1/intx.hpp:29) in function 'add' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-3' (intx-fpga/solution1/int128.hpp:173) in function 'add' automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 's.word_num_bits' (intx-fpga/solution1/int128.hpp:171) completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'a.word_num_bits.assign' (intx-fpga/solution1/adder.cpp:4) completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'b.word_num_bits.assign' (intx-fpga/solution1/adder.cpp:4) completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 's.word_num_bits' (intx-fpga/solution1/int128.hpp:171) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'a.word_num_bits.assign' (intx-fpga/solution1/adder.cpp:4) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'b.word_num_bits.assign' (intx-fpga/solution1/adder.cpp:4) in dimension 1 completely.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.198 seconds; current allocated memory: 120.617 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.129 seconds; current allocated memory: 112.884 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'add' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'add' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-61] Pipelining loop 'Loop 2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'Loop 2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 113.222 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.102 seconds; current allocated memory: 113.544 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'add' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'add/a' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'add/b' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'add' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'mux_42_64_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'add'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.146 seconds; current allocated memory: 114.114 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.743 seconds; current allocated memory: 120.955 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for add.
+INFO: [VLOG 209-307] Generating Verilog RTL for add.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 219.28 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 10.353 seconds; current allocated memory: 121.087 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 1 seconds. Total elapsed time: 12.583 seconds; peak allocated memory: 876.497 MB.

@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1622475193168">
+  <ports id="1" name="a" type="PortType" coreId="2505424088" bitwidth="256">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="b" type="PortType" coreId="1" bitwidth="256">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="12" name="ap_return" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="101" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="103" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="104" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="107" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="113" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="119" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="124" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="126" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="130" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="134" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="137" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="140" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="141" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="142" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="143" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="146" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="147" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="148" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.4"/>
+  <edges id="149" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="154" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="155" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="156" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="157" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="159" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="161" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="162" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="163" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="165" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="166" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="168" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="169" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="171" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.9"/>
+  <edges id="172" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.9"/>
+  <edges id="173" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.9"/>
+  <edges id="175" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.9"/>
+  <edges id="176" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.10"/>
+  <edges id="179" source_obj="//@regions.0/@basic_blocks.0/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="180" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="181" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.12"/>
+  <edges id="182" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.12"/>
+  <edges id="183" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.13"/>
+  <edges id="184" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.13"/>
+  <edges id="185" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.14"/>
+  <edges id="186" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.14"/>
+  <edges id="187" source_obj="//@regions.0/@basic_blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.15"/>
+  <edges id="188" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.15"/>
+  <edges id="189" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.15"/>
+  <edges id="194" source_obj="//@regions.0/@basic_blocks.0/@node_objs.9" sink_obj="//@blocks.1/@node_objs.4"/>
+  <edges id="195" source_obj="//@blocks.1/@node_objs.3" sink_obj="//@blocks.1/@node_objs.4"/>
+  <edges id="196" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@blocks.1/@node_objs.5"/>
+  <edges id="197" source_obj="//@blocks.1/@node_objs.2" sink_obj="//@blocks.1/@node_objs.5"/>
+  <edges id="198" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@blocks.1/@node_objs.6"/>
+  <edges id="199" source_obj="//@blocks.1/@node_objs.1" sink_obj="//@blocks.1/@node_objs.6"/>
+  <edges id="200" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@blocks.1/@node_objs.7"/>
+  <edges id="201" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@blocks.1/@node_objs.7"/>
+  <edges id="202" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="203" source_obj="//@regions.1/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="204" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.6" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="207" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.0"/>
+  <edges id="208" source_obj="//@regions.1/@basic_blocks.6/@node_objs.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.1" is_back_edge="1"/>
+  <edges id="209" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.6" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.1" is_back_edge="1"/>
+  <edges id="212" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.1"/>
+  <edges id="213" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.2"/>
+  <edges id="216" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.3"/>
+  <edges id="219" source_obj="//@regions.1/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.4"/>
+  <edges id="220" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.4"/>
+  <edges id="221" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.4"/>
+  <edges id="222" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.0"/>
+  <edges id="224" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="225" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="226" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="227" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="228" source_obj="//@regions.1/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="230" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.2"/>
+  <edges id="231" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.2"/>
+  <edges id="232" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.2"/>
+  <edges id="233" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.2"/>
+  <edges id="234" source_obj="//@regions.1/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.2"/>
+  <edges id="235" source_obj="//@regions.1/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.3"/>
+  <edges id="236" source_obj="//@regions.1/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.3"/>
+  <edges id="237" source_obj="//@regions.1/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.4"/>
+  <edges id="238" source_obj="//@regions.1/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.4"/>
+  <edges id="239" source_obj="//@regions.1/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.5"/>
+  <edges id="240" source_obj="//@regions.1/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.6"/>
+  <edges id="241" source_obj="//@regions.1/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.6"/>
+  <edges id="242" source_obj="//@regions.1/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.7"/>
+  <edges id="243" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.5" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.7"/>
+  <edges id="245" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.4" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.7"/>
+  <edges id="247" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.3" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.7"/>
+  <edges id="250" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.2" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.7"/>
+  <edges id="251" source_obj="//@regions.1/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.1/@basic_blocks.4/@node_objs.0"/>
+  <edges id="252" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.4/@node_objs.0"/>
+  <edges id="253" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.6" sink_obj="//@regions.1/@basic_blocks.4/@node_objs.1"/>
+  <edges id="254" source_obj="//@regions.1/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.1/@basic_blocks.6/@node_objs.0"/>
+  <edges id="255" source_obj="//@regions.1/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.1/@basic_blocks.6/@node_objs.0"/>
+  <edges id="256" source_obj="//@regions.1/@basic_blocks.6/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.6/@node_objs.1"/>
+  <edges id="257" source_obj="//@regions.1/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.1/@basic_blocks.6/@node_objs.1"/>
+  <edges id="258" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@regions.1/@basic_blocks.6/@node_objs.2"/>
+  <edges id="259" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="260" source_obj="//@blocks.1/@node_objs.1" sink_obj="//@blocks.2/@node_objs.1"/>
+  <edges id="261" source_obj="//@blocks.1/@node_objs.2" sink_obj="//@blocks.2/@node_objs.2"/>
+  <edges id="262" source_obj="//@blocks.1/@node_objs.3" sink_obj="//@blocks.2/@node_objs.3"/>
+  <edges id="265" source_obj="//@blocks.2/@node_objs.3" sink_obj="//@blocks.2/@node_objs.4"/>
+  <edges id="266" source_obj="//@blocks.2/@node_objs.2" sink_obj="//@blocks.2/@node_objs.4"/>
+  <edges id="267" source_obj="//@blocks.2/@node_objs.1" sink_obj="//@blocks.2/@node_objs.4"/>
+  <edges id="268" source_obj="//@blocks.2/@node_objs.0" sink_obj="//@blocks.2/@node_objs.4"/>
+  <edges id="269" source_obj="//@blocks.2/@node_objs.4" sink_obj="//@blocks.2/@node_objs.5"/>
+  <edges id="270" source_obj="//@regions.1/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.1/@basic_blocks.3/@node_objs.0"/>
+  <edges id="271" source_obj="//@blocks.1/@node_objs.1" sink_obj="//@regions.1/@basic_blocks.3/@node_objs.0"/>
+  <edges id="272" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.6" sink_obj="//@regions.1/@basic_blocks.3/@node_objs.1"/>
+  <edges id="273" source_obj="//@regions.1/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.1/@basic_blocks.2/@node_objs.0"/>
+  <edges id="274" source_obj="//@blocks.1/@node_objs.2" sink_obj="//@regions.1/@basic_blocks.2/@node_objs.0"/>
+  <edges id="275" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.6" sink_obj="//@regions.1/@basic_blocks.2/@node_objs.1"/>
+  <edges id="276" source_obj="//@regions.1/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.1/@basic_blocks.5/@node_objs.0"/>
+  <edges id="277" source_obj="//@blocks.1/@node_objs.3" sink_obj="//@regions.1/@basic_blocks.5/@node_objs.0"/>
+  <edges id="278" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.6" sink_obj="//@regions.1/@basic_blocks.5/@node_objs.1"/>
+  <edges id="357" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="358" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="359" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="360" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.1/@basic_blocks.0"/>
+  <edges id="361" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@blocks.2"/>
+  <edges id="362" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@regions.1/@basic_blocks.1"/>
+  <edges id="363" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.5"/>
+  <edges id="364" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.4"/>
+  <edges id="365" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.3"/>
+  <edges id="366" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.2"/>
+  <edges id="367" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.2" sink_obj="//@regions.1/@basic_blocks.6"/>
+  <edges id="368" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.3" sink_obj="//@regions.1/@basic_blocks.6"/>
+  <edges id="369" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.4" sink_obj="//@regions.1/@basic_blocks.6"/>
+  <edges id="370" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.5" sink_obj="//@regions.1/@basic_blocks.6"/>
+  <edges id="371" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.6" sink_obj="//@regions.1/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="372" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="373" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.12"/>
+  <edges id="374" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.13"/>
+  <edges id="375" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.14"/>
+  <edges id="376" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.4" sink_obj="//@blocks.2/@node_objs.3"/>
+  <edges id="377" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.5" sink_obj="//@blocks.2/@node_objs.2"/>
+  <edges id="378" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.6" sink_obj="//@blocks.2/@node_objs.1"/>
+  <edges id="379" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.7" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="380" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.4" sink_obj="//@regions.1/@basic_blocks.5/@node_objs.0"/>
+  <edges id="381" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.7" sink_obj="//@regions.1/@basic_blocks.4/@node_objs.0"/>
+  <edges id="382" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.6" sink_obj="//@regions.1/@basic_blocks.3/@node_objs.0"/>
+  <edges id="383" edge_type="VirtEdge" source_obj="//@blocks.1/@node_objs.5" sink_obj="//@regions.1/@basic_blocks.2/@node_objs.0"/>
+  <edges source_obj="//@blocks.2/@node_objs.5" sink_obj="//@ports.2"/>
+  <blocks id="24" name="block_24" type="BlockType">
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>branch0</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="3" name="s_word_num_bits_0_0" coreId="2440795736" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="s_word_num_bits_1_0" coreId="0" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="s_word_num_bits_2_0" coreId="0" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="s_word_num_bits_3_0" coreId="2505055624" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="b_read" coreId="0" bitwidth="256" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <dataInputObjs>b</dataInputObjs>
+      <dataOutputObjs>trunc</dataOutputObjs>
+      <dataOutputObjs>partselect</dataOutputObjs>
+      <dataOutputObjs>partselect</dataOutputObjs>
+      <dataOutputObjs>partselect</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="a_read" coreId="0" bitwidth="256" opcode="read" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <dataInputObjs>a</dataInputObjs>
+      <dataOutputObjs>trunc</dataOutputObjs>
+      <dataOutputObjs>partselect</dataOutputObjs>
+      <dataOutputObjs>partselect</dataOutputObjs>
+      <dataOutputObjs>partselect</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="empty" rtlName="empty_fu_147_p1" coreId="0" bitwidth="64" opcode="trunc" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="a_word_num_bits_assign_1" rtlName="a_word_num_bits_assign_1_reg_474" coreId="0" bitwidth="64" opcode="partselect" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="a_word_num_bits_assign_2" rtlName="a_word_num_bits_assign_2_reg_479" coreId="0" bitwidth="64" opcode="partselect" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="a_word_num_bits_assign_3" rtlName="a_word_num_bits_assign_3_reg_484" coreId="0" bitwidth="64" opcode="partselect" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="empty_6" rtlName="empty_6_fu_181_p1" coreId="50" bitwidth="64" opcode="trunc" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="b_word_num_bits_assign_1" rtlName="b_word_num_bits_assign_1_reg_494" coreId="0" bitwidth="64" opcode="partselect" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="b_word_num_bits_assign_2" rtlName="b_word_num_bits_assign_2_reg_499" coreId="2505052688" bitwidth="64" opcode="partselect" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="b_word_num_bits_assign_3" rtlName="b_word_num_bits_assign_3_reg_504" coreId="0" bitwidth="64" opcode="partselect" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="br_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="10" contextFuncName="uint" opcode="br" m_display="0" m_delay="0.46" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+      <controlInputObjs>branch0</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="intx-fpga/solution1/intx.hpp">
+      <validLinenumbers>29</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="53" name="_ZN4intx4uintILj256EEC2Ev.exit.i.i.preheader" type="BlockType">
+    <controlInputObjs>branch0</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="44" name="s_word_num_bits_0_2" coreId="0" bitwidth="64" opcode="alloca" nodeLabel="2.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="45" name="s_word_num_bits_1_2" coreId="3228058689" bitwidth="64" opcode="alloca" nodeLabel="2.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="46" name="s_word_num_bits_2_2" coreId="0" bitwidth="64" opcode="alloca" nodeLabel="2.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="47" name="s_word_num_bits_3_2" coreId="0" bitwidth="64" opcode="alloca" nodeLabel="2.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="s_word_num_bits_3_2_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.46" m_topoIndex="36" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+      <dataInputObjs>mux</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="s_word_num_bits_2_2_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.46" m_topoIndex="37" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+      <dataInputObjs>mux</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="s_word_num_bits_1_2_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.46" m_topoIndex="38" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+      <dataInputObjs>mux</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="s_word_num_bits_0_2_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.46" m_topoIndex="39" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+      <dataInputObjs>mux</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="br_ln0" coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_delay="0.46" m_topoIndex="40" m_clusterGroupNumber="-1">
+      <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="intx-fpga/solution1/intx.hpp">
+      <validLinenumbers>29</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="93" name="_ZN4intxplILj256EEENS_4uintIXT_EEERKS2_S4_.exit" type="BlockType">
+    <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="s_word_num_bits_0_2_load" lineNumber="5" fileName="intx-fpga/solution1/adder.cpp" fileDirectory=".." coreId="0" contextFuncName="add" bitwidth="64" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/adder.cpp" linenumber="5" fileDirectory="D:\projects" functionName="add"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>bitconcatenate</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="88" name="s_word_num_bits_1_2_load" lineNumber="5" fileName="intx-fpga/solution1/adder.cpp" fileDirectory=".." coreId="0" contextFuncName="add" bitwidth="64" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="66" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/adder.cpp" linenumber="5" fileDirectory="D:\projects" functionName="add"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>bitconcatenate</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="s_word_num_bits_2_2_load" lineNumber="5" fileName="intx-fpga/solution1/adder.cpp" fileDirectory=".." coreId="0" contextFuncName="add" bitwidth="64" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="67" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/adder.cpp" linenumber="5" fileDirectory="D:\projects" functionName="add"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>bitconcatenate</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="90" name="s_word_num_bits_3_2_load" lineNumber="5" fileName="intx-fpga/solution1/adder.cpp" fileDirectory=".." coreId="0" contextFuncName="add" bitwidth="64" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="68" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/adder.cpp" linenumber="5" fileDirectory="D:\projects" functionName="add"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>bitconcatenate</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="91" name="or_ln5_2" lineNumber="5" fileName="intx-fpga/solution1/adder.cpp" fileDirectory=".." rtlName="ap_return" coreId="0" contextFuncName="add" bitwidth="256" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/adder.cpp" linenumber="5" fileDirectory="D:\projects" functionName="add"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="92" name="_ln5" lineNumber="5" fileName="intx-fpga/solution1/adder.cpp" fileDirectory=".." coreId="0" contextFuncName="add" opcode="ret" nodeLabel="4.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="intx-fpga/solution1/adder.cpp" linenumber="5" fileDirectory="D:\projects" functionName="add"/>
+      <dataInputObjs>bitconcatenate</dataInputObjs>
+      <dataOutputObjs>ap_return</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="intx-fpga/solution1/adder.cpp">
+      <validLinenumbers>5</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" id="376" pipe_depth="1" RegionName="Loop 1">
+    <basic_blocks id="43" name="branch0" type="BlockType">
+      <controlInputObjs>block_24</controlInputObjs>
+      <controlInputObjs>branch0</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i.preheader</controlOutputObjs>
+      <controlOutputObjs>branch0</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="phi_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="2505062192" contextFuncName="uint" bitwidth="2" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <controlInputObjs>block_24</controlInputObjs>
+        <controlInputObjs>branch0</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="add_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." rtlName="add_ln29_fu_215_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="uint" bitwidth="2" opcode="add" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="s_word_num_bits_0_0_load" coreId="29" bitwidth="64" opcode="load" nodeLabel="1.0" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="s_word_num_bits_1_0_load" coreId="0" bitwidth="64" opcode="load" nodeLabel="1.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="s_word_num_bits_2_0_load" coreId="0" bitwidth="64" opcode="load" nodeLabel="1.0" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="s_word_num_bits_3_0_load" coreId="0" bitwidth="64" opcode="load" nodeLabel="1.0" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="s_word_num_bits_0_1" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." rtlName="mux_42_64_1_1_U1" opType="mux" coreId="0" contextFuncName="uint" bitwidth="64" opcode="mux" nodeLabel="1.0" m_display="0" m_delay="0.54" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="s_word_num_bits_1_1" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." rtlName="mux_42_64_1_1_U2" opType="mux" coreId="0" contextFuncName="uint" bitwidth="64" opcode="mux" nodeLabel="1.0" m_display="0" m_delay="0.54" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="s_word_num_bits_2_1" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." rtlName="mux_42_64_1_1_U3" opType="mux" coreId="4294967295" contextFuncName="uint" bitwidth="64" opcode="mux" nodeLabel="1.0" m_display="0" m_delay="0.54" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="s_word_num_bits_3_1" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." rtlName="mux_42_64_1_1_U4" opType="mux" coreId="0" contextFuncName="uint" bitwidth="64" opcode="mux" nodeLabel="1.0" m_display="0" m_delay="0.54" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="icmp_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." rtlName="icmp_ln29_fu_289_p2" opType="icmp" coreId="0" contextFuncName="uint" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.39" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="s_word_num_bits_3_0_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="3288790568" contextFuncName="uint" opcode="store" nodeLabel="1.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="s_word_num_bits_2_0_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="store" nodeLabel="1.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="s_word_num_bits_1_0_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="store" nodeLabel="1.0" m_display="0" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="s_word_num_bits_0_0_write_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="store" nodeLabel="1.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="br_ln29" lineNumber="29" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." coreId="0" contextFuncName="uint" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="29" fileDirectory="D:\projects" functionName="uint"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>branch0</controlInputObjs>
+        <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i.preheader</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/intx.hpp">
+        <validLinenumbers>29</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" id="377" pipe_depth="1" RegionName="Loop 2">
+    <basic_blocks id="61" name="_ZN4intx4uintILj256EEC2Ev.exit.i.i" type="BlockType">
+      <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i.preheader</controlInputObjs>
+      <controlInputObjs>.split11</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_ZN4intxplILj256EEENS_4uintIXT_EEERKS2_S4_.exit</controlOutputObjs>
+      <controlOutputObjs>.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="i" originalName="i" coreId="0" bitwidth="3" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <controlInputObjs>.split11</controlInputObjs>
+        <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i.preheader</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="k" originalName="k" coreId="0" bitwidth="1" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
+        <dataInputObjs>or</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <controlInputObjs>.split11</controlInputObjs>
+        <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i.preheader</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="i_1" lineNumber="173" originalName="i" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="i_1_fu_331_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="add_with_carry_256_s" bitwidth="3" opcode="add" nodeLabel="3.0" m_display="0" m_delay="0.71" m_topoIndex="43" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="173" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="icmp_ln173" lineNumber="173" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="icmp_ln173_fu_337_p2" opType="icmp" coreId="0" contextFuncName="add_with_carry_256_s" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.56" m_topoIndex="44" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="173" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="br_ln173" lineNumber="173" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="0" contextFuncName="add_with_carry_256_s" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="173" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>.split</controlInputObjs>
+        <controlInputObjs>_ZN4intxplILj256EEENS_4uintIXT_EEERKS2_S4_.exit</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/int128.hpp">
+        <validLinenumbers>173</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="70" name=".split" type="BlockType">
+      <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>branch7</controlOutputObjs>
+      <controlOutputObjs>.split..split11_crit_edge</controlOutputObjs>
+      <controlOutputObjs>branch5</controlOutputObjs>
+      <controlOutputObjs>branch6</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="trunc_ln50" lineNumber="50" fileName="intx-fpga/solution1/intx.hpp" fileDirectory=".." rtlName="trunc_ln50_fu_343_p1" coreId="0" contextFuncName="operator_s" bitwidth="2" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/intx.hpp" linenumber="50" fileDirectory="D:\projects" functionName="operator[]"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <dataOutputObjs>switch</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="tmp" lineNumber="175" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="mux_42_64_1_1_U5" opType="mux" coreId="0" contextFuncName="add_with_carry_256_s" bitwidth="64" opcode="mux" nodeLabel="3.0" m_display="0" m_delay="0.54" m_topoIndex="47" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="175" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="64" name="tmp_1" lineNumber="175" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="mux_42_64_1_1_U6" opType="mux" coreId="325" contextFuncName="add_with_carry_256_s" bitwidth="64" opcode="mux" nodeLabel="3.0" m_display="0" m_delay="0.54" m_topoIndex="48" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="175" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="65" name="add_ln175" lineNumber="175" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="add_ln175_fu_367_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="add_with_carry_256_s" bitwidth="64" opcode="add" nodeLabel="3.0" m_display="0" m_delay="1.36" m_topoIndex="49" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="175" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="66" name="k1" lineNumber="176" originalName="k1" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="k1_fu_373_p2" opType="icmp" coreId="3289012451" contextFuncName="add_with_carry_256_s" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="1.14" m_topoIndex="50" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="176" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="zext_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="zext_ln177_fu_379_p1" coreId="0" contextFuncName="add_with_carry_256_s" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="add_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="add_ln177_fu_383_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="add_with_carry_256_s" bitwidth="64" opcode="add" nodeLabel="3.0" m_display="0" m_delay="1.36" m_topoIndex="52" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="0" contextFuncName="add_with_carry_256_s" opcode="switch" nodeLabel="3.0" m_display="0" m_delay="0.72" m_topoIndex="53" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <controlInputObjs>branch7</controlInputObjs>
+        <controlInputObjs>.split..split11_crit_edge</controlInputObjs>
+        <controlInputObjs>branch5</controlInputObjs>
+        <controlInputObjs>branch6</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/int128.hpp">
+        <validLinenumbers>175</validLinenumbers>
+        <validLinenumbers>176</validLinenumbers>
+        <validLinenumbers>177</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/intx.hpp">
+        <validLinenumbers>50</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="73" name="branch6" type="BlockType">
+      <controlInputObjs>.split</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>.split11</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="s_word_num_bits_2_2_write_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="0" contextFuncName="add_with_carry_256_s" opcode="store" nodeLabel="3.0" m_display="0" m_delay="0.46" m_topoIndex="54" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="br_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="3325773458" contextFuncName="add_with_carry_256_s" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="55" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <controlInputObjs>.split11</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/int128.hpp">
+        <validLinenumbers>177</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="76" name="branch5" type="BlockType">
+      <controlInputObjs>.split</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>.split11</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="74" name="s_word_num_bits_1_2_write_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="3264823920" contextFuncName="add_with_carry_256_s" opcode="store" nodeLabel="3.0" m_display="0" m_delay="0.46" m_topoIndex="56" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="75" name="br_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="0" contextFuncName="add_with_carry_256_s" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <controlInputObjs>.split11</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/int128.hpp">
+        <validLinenumbers>177</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="79" name=".split..split11_crit_edge" type="BlockType">
+      <controlInputObjs>.split</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>.split11</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="77" name="s_word_num_bits_0_2_write_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="0" contextFuncName="add_with_carry_256_s" opcode="store" nodeLabel="3.0" m_display="0" m_delay="0.46" m_topoIndex="58" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="78" name="br_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="0" contextFuncName="add_with_carry_256_s" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="59" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <controlInputObjs>.split11</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/int128.hpp">
+        <validLinenumbers>177</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="82" name="branch7" type="BlockType">
+      <controlInputObjs>.split</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>.split11</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="80" name="s_word_num_bits_3_2_write_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="825913456" contextFuncName="add_with_carry_256_s" opcode="store" nodeLabel="3.0" m_display="0" m_delay="0.46" m_topoIndex="60" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="81" name="br_ln177" lineNumber="177" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." coreId="0" contextFuncName="add_with_carry_256_s" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="177" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <controlInputObjs>.split11</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/int128.hpp">
+        <validLinenumbers>177</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="86" name=".split11" type="BlockType">
+      <controlInputObjs>branch6</controlInputObjs>
+      <controlInputObjs>branch5</controlInputObjs>
+      <controlInputObjs>.split..split11_crit_edge</controlInputObjs>
+      <controlInputObjs>branch7</controlInputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="83" name="icmp_ln178" lineNumber="178" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="icmp_ln178_fu_409_p2" opType="icmp" coreId="0" contextFuncName="add_with_carry_256_s" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="1.14" m_topoIndex="62" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="178" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="84" name="k_1" lineNumber="178" originalName="k" fileName="intx-fpga/solution1/int128.hpp" fileDirectory=".." rtlName="k_1_fu_415_p2" opType="or" coreId="0" contextFuncName="add_with_carry_256_s" bitwidth="1" opcode="or" nodeLabel="3.0" m_display="0" m_delay="0.14" m_topoIndex="63" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="intx-fpga/solution1/int128.hpp" linenumber="178" fileDirectory="D:\projects" functionName="add_with_carry&amp;lt;256&amp;gt;"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="85" name="br_ln0" coreId="0" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="64" m_clusterGroupNumber="-1">
+        <controlInputObjs>_ZN4intx4uintILj256EEC2Ev.exit.i.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="intx-fpga/solution1/int128.hpp">
+        <validLinenumbers>178</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <regnodes realName="s_word_num_bits_0_2_reg_537">
+    <nodeIds>44</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_2_0_reg_457">
+    <nodeIds>5</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_3_1_reg_529">
+    <nodeIds>35</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_1_2_reg_544">
+    <nodeIds>45</nodeIds>
+  </regnodes>
+  <regnodes realName="b_word_num_bits_assign_1_reg_494">
+    <nodeIds>20</nodeIds>
+  </regnodes>
+  <regnodes realName="i_1_reg_565">
+    <nodeIds>56</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_0_1_reg_514">
+    <nodeIds>32</nodeIds>
+  </regnodes>
+  <regnodes realName="empty_reg_469">
+    <nodeIds>15</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_3_2_reg_558">
+    <nodeIds>47</nodeIds>
+  </regnodes>
+  <regnodes realName="b_word_num_bits_assign_2_reg_499">
+    <nodeIds>21</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_2_1_reg_524">
+    <nodeIds>34</nodeIds>
+  </regnodes>
+  <regnodes realName="phi_ln29_reg_114">
+    <nodeIds>25</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_1_1_reg_519">
+    <nodeIds>33</nodeIds>
+  </regnodes>
+  <regnodes realName="a_word_num_bits_assign_1_reg_474">
+    <nodeIds>16</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_0_0_reg_445">
+    <nodeIds>3</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_1_0_reg_451">
+    <nodeIds>4</nodeIds>
+  </regnodes>
+  <regnodes realName="b_word_num_bits_assign_3_reg_504">
+    <nodeIds>22</nodeIds>
+  </regnodes>
+  <regnodes realName="a_word_num_bits_assign_2_reg_479">
+    <nodeIds>17</nodeIds>
+  </regnodes>
+  <regnodes realName="i_reg_125">
+    <nodeIds>54</nodeIds>
+  </regnodes>
+  <regnodes realName="empty_6_reg_489">
+    <nodeIds>19</nodeIds>
+  </regnodes>
+  <regnodes realName="k_1_reg_576">
+    <nodeIds>84</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_2_2_reg_551">
+    <nodeIds>46</nodeIds>
+  </regnodes>
+  <regnodes realName="a_word_num_bits_assign_3_reg_484">
+    <nodeIds>18</nodeIds>
+  </regnodes>
+  <regnodes realName="add_ln29_reg_509">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="k_reg_136">
+    <nodeIds>55</nodeIds>
+  </regnodes>
+  <regnodes realName="s_word_num_bits_3_0_reg_463">
+    <nodeIds>6</nodeIds>
+  </regnodes>
+  <expressionNodes realName="a_word_num_bits_assign_3_fu_171">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="b_word_num_bits_assign_1_fu_185">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln177_fu_379">
+    <nodeIds>67</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_1_fu_357">
+    <nodeIds>64</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_2_1_fu_261">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln173_fu_337">
+    <nodeIds>58</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="k_1_fu_415">
+    <nodeIds>84</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_1_0_fu_74">
+    <nodeIds>4</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_3_1_fu_275">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="b_word_num_bits_assign_3_fu_205">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_6_fu_181">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_phi_fu_129">
+    <nodeIds>54</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_0_1_fu_233">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_0_0_fu_70">
+    <nodeIds>3</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_fu_147">
+    <nodeIds>15</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln5_2_fu_433">
+    <nodeIds>91</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="k1_fu_373">
+    <nodeIds>66</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="k_phi_fu_140">
+    <nodeIds>55</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_0_2_fu_86">
+    <nodeIds>44</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="a_word_num_bits_assign_1_fu_151">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_3_0_fu_82">
+    <nodeIds>6</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln178_fu_409">
+    <nodeIds>83</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="b_word_num_bits_assign_2_fu_195">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_fu_347">
+    <nodeIds>63</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_3_2_fu_98">
+    <nodeIds>47</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln50_fu_343">
+    <nodeIds>62</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_2_2_fu_94">
+    <nodeIds>46</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln29_fu_289">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln29_fu_215">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln175_fu_367">
+    <nodeIds>65</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_1_1_fu_247">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_1_fu_331">
+    <nodeIds>56</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="a_word_num_bits_assign_2_fu_161">
+    <nodeIds>17</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln177_fu_383">
+    <nodeIds>68</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_2_0_fu_78">
+    <nodeIds>5</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="s_word_num_bits_1_2_fu_90">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="phi_ln29_phi_fu_118">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="s_word_num_bits_0_2_load_load_fu_421">
+    <nodeIds>87</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_word_num_bits_1_2_load_load_fu_424">
+    <nodeIds>88</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_word_num_bits_2_2_load_load_fu_427">
+    <nodeIds>89</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln177_store_fu_394">
+    <nodeIds>74</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_word_num_bits_0_0_load_load_fu_221">
+    <nodeIds>27</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_319">
+    <nodeIds>49</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln177_store_fu_399">
+    <nodeIds>77</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_word_num_bits_3_0_load_load_fu_230">
+    <nodeIds>30</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_word_num_bits_1_0_load_load_fu_224">
+    <nodeIds>28</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_word_num_bits_2_0_load_load_fu_227">
+    <nodeIds>29</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_word_num_bits_3_2_load_load_fu_430">
+    <nodeIds>90</nodeIds>
+  </ioNodes>
+  <ioNodes realName="a_read_read_fu_108">
+    <nodeIds>14</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_295">
+    <nodeIds>38</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln177_store_fu_389">
+    <nodeIds>71</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_315">
+    <nodeIds>48</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_305">
+    <nodeIds>40</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_327">
+    <nodeIds>51</nodeIds>
+  </ioNodes>
+  <ioNodes realName="b_read_read_fu_102">
+    <nodeIds>13</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_310">
+    <nodeIds>41</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln177_store_fu_404">
+    <nodeIds>80</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_300">
+    <nodeIds>39</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln29_store_fu_323">
+    <nodeIds>50</nodeIds>
+  </ioNodes>
+  <ioPorts name="a">
+    <contents name="read">
+      <nodeIds>14</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="b">
+    <contents name="read">
+      <nodeIds>13</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return">
+    <contents name="ret">
+      <nodeIds>92</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="59" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="62" stage="1" latency="1"/>
+      <operations id="63" stage="1" latency="1"/>
+      <operations id="64" stage="1" latency="1"/>
+      <operations id="65" stage="1" latency="1"/>
+      <operations id="66" stage="1" latency="1"/>
+      <operations id="67" stage="1" latency="1"/>
+      <operations id="68" stage="1" latency="1"/>
+      <operations id="69" stage="1" latency="1"/>
+      <operations id="71" stage="1" latency="1"/>
+      <operations id="72" stage="1" latency="1"/>
+      <operations id="74" stage="1" latency="1"/>
+      <operations id="75" stage="1" latency="1"/>
+      <operations id="77" stage="1" latency="1"/>
+      <operations id="78" stage="1" latency="1"/>
+      <operations id="80" stage="1" latency="1"/>
+      <operations id="81" stage="1" latency="1"/>
+      <operations id="83" stage="1" latency="1"/>
+      <operations id="84" stage="1" latency="1"/>
+      <operations id="85" stage="1" latency="1"/>
+    </states>
+    <states id="5">
+      <operations id="87" stage="1" latency="1"/>
+      <operations id="88" stage="1" latency="1"/>
+      <operations id="89" stage="1" latency="1"/>
+      <operations id="90" stage="1" latency="1"/>
+      <operations id="91" stage="1" latency="1"/>
+      <operations id="92" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="4">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="add" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="11" mMaxLatency="11">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <subRegions>5</subRegions>
+      <subRegions>6</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>24</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="Loop_1" mII="1" mDepth="1" mMinTripCount="4" mMaxTripCount="4" mMinLatency="3" mMaxLatency="3" mType="1">
+      <basicBlocks>43</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Region 1" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>53</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="5" mTag="Loop_2" mII="1" mDepth="1" mMinTripCount="4" mMaxTripCount="4" mMinLatency="4" mMaxLatency="4" mType="1">
+      <basicBlocks>61</basicBlocks>
+      <basicBlocks>70</basicBlocks>
+      <basicBlocks>73</basicBlocks>
+      <basicBlocks>76</basicBlocks>
+      <basicBlocks>79</basicBlocks>
+      <basicBlocks>82</basicBlocks>
+      <basicBlocks>86</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="6" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>93</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>
